@@ -41,7 +41,7 @@ p {
   letter-spacing: 0.2rem;
   text-align: center;
 }
-.section-title h3 {
+.section-title span {
   color: crimson;
 }
 
@@ -67,7 +67,7 @@ p {
   text-transform: uppercase;
   color: white;
 }
-.brand h1 h3 {
+.brand h1 span {
   color: crimson;
 }
 
@@ -243,7 +243,7 @@ p {
   animation: text_reveal_name 0.5s ease forwards;
   animation-delay: 3s;
 }
-#hero h1 h3 {
+#hero h1 span {
   position: absolute;
   top: 0;
   left: 0;
@@ -253,13 +253,13 @@ p {
   animation: text_reveal_box 1s ease;
   animation-delay: 0.5s;
 }
-#hero h1:nth-child(1) h3 {
+#hero h1:nth-child(1) span {
   animation-delay: 0.5s;
 }
-#hero h1:nth-child(2) h3 {
+#hero h1:nth-child(2) span {
   animation-delay: 1.5s;
 }
-#hero h1:nth-child(3) h3 {
+#hero h1:nth-child(3) span {
   animation-delay: 2.5s;
 }
 
@@ -703,16 +703,16 @@ p {
     flex-basis: 22%;
     margin: 1.5%;
   }
-  section span {
+  section .span {
     position: absolute;
-    bottom: -50vh;
+    bottom: -500px;
     background: transparent;
     border-radius: 50%;
     pointer-events: none;
     box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.5);
     animation: bubble 4s linear infinite;
   }
-  section span::before {
+  section .span::before {
     content: "";
     position: absolute;
     width: 100%;

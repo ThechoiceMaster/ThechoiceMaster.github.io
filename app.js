@@ -33,7 +33,7 @@ menu_item.forEach((item) => {
 //!-------------------bubbles--------------------!//
 function createBubble() {
   const section = document.querySelector("section");
-  const createElement = document.createElement("span");
+  const createElement = document.createElement(".span");
   var size = Math.random() * 60;
 
   createElement.style.width = 20 + size + "px";
