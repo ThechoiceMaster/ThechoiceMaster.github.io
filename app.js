@@ -7,8 +7,6 @@ const menu_item = document.querySelectorAll(
 );
 const header = document.querySelector(".header.container");
 
-//!-------------------Header--------------------!//
-
 hamburger.addEventListener("click", () => {
   hamburger.classList.toggle("active");
   mobile_menu.classList.toggle("active");
@@ -29,21 +27,3 @@ menu_item.forEach((item) => {
     mobile_menu.classList.toggle("active");
   });
 });
-
-//!-------------------bubbles--------------------!//
-function createBubble() {
-  const section = document.querySelector("section");
-  const createElement = document.createElement("h3");
-  var size = Math.random() * 60;
-
-  createElement.style.width = 20 + size + "px";
-  createElement.style.height = 20 + size + "px";
-  createElement.style.left = Math.random() * innerWidth + "px";
-  section.appendChild(createElement);
-
-  setTimeout(() => {
-    createElement.remove();
-  }, 4000);
-}
-
-setInterval(createBubble,50)
