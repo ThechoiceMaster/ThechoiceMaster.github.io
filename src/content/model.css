@@ -1,0 +1,52 @@
+.model {
+    /* display: none; */
+    position: fixed;
+    z-index: 3;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    align-items: center;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.model-content {
+    background-color: rgba(255,255,255,1);
+    margin: 10% auto;
+    padding: 20px;
+    width: 470px;
+    height: auto;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.17);
+}
+
+.model-insert-vdo {
+    background-color: rgba(255,255,255,1);
+    margin: 10% auto;
+    padding: 20px;
+    max-width: 700px;
+    height: auto;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.17);
+}
+.form-label-vdo {
+    margin-top: 15px;
+}
+
+.closeBtn {
+    color: #ccc;
+    float: right;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.closeBtn:hover,.closeBtn:focus {
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+@media screen and (max-width:768px) {
+    .model-content {
+        max-width: 95%;
+    }
+}

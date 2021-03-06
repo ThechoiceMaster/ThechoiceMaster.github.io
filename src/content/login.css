@@ -1,0 +1,52 @@
+
+.center-from {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+.login-page {
+    margin-top: 25px;
+    width: 470px;
+    min-height: 100px;
+}
+.center {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Chonburi', cursive;
+}
+.auth-center {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.bottom-from {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    align-items: center;
+    margin-top: 25px;
+}
+.link-center {
+    margin-left: 15px;
+}
+.text-center {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.link {
+    color: gray;
+}
+
+.link-r {
+    color: rgba(255,185,0,1);
+    text-decoration: none;
+}
+
+.link-r:hover {
+    color: rgba(255,185,0,1);
+}

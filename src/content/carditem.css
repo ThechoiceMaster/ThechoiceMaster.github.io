@@ -1,0 +1,13 @@
+.cardbody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.input-l {
+    text-decoration: none;
+    color: #ffff;
+}
+.input-l:hover {
+    color: #ffff;
+}
